@@ -1,0 +1,449 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+
+}
+body{
+    overflow-x: hidden;
+}
+
+
+.front{
+    background-image: url(body.jpg);
+    width: 100%;
+    height: 800px;
+background-attachment: fixed;
+}
+
+.head{
+/*background-color: azure;*/
+display: flex;
+width: 100%;
+height: 60px;
+text-align: center;
+line-height: 60px;
+position: sticky;
+top: 0px;
+
+
+
+}
+.left{
+    width: 20%;
+    /*background-color: aqua;*/
+
+    
+}
+.left .logoname{
+    color:#f04e3c;
+    line-height: 0px;
+    font-weight: bolder;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.center{
+    width: 60%;
+   /* background-color: blueviolet;*/
+   text-transform: uppercase;
+   margin-left: 10px;
+}
+.right{
+    width:20% ;
+   /* background-color: yellow;*/
+   
+    
+}
+.center a{
+    text-decoration: none;
+    color: rgb(238, 231, 231);
+    padding: 30px; 
+}
+.rightbtn{
+    color: rgba(227, 236, 238, 0.986);
+    background-color: #f04e3c;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+margin-top: 10px;
+   
+}
+.left img{
+width: 70px;
+filter: invert(100%);
+padding-top: 10px;
+line-height: 0px;
+
+}
+.center a:hover,.rightbtn:hover,.formbtn:hover{
+    color: rgb(107, 252, 139);
+    border-bottom:1px solid rgb(107, 252, 139);
+    font-size: large;
+   
+}
+#active{
+
+    background-color: #f04e3c;
+}
+.form{
+    /*background-color: aliceblue;*/
+    width: 50%;
+    height: 300px;
+     font-weight: bolder;
+    text-align: start;
+   margin: 180px 0px 0px 90px;
+ text-transform: uppercase;
+ 
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.firstp{
+    color: cyan;
+    font-size: 20px;
+}
+
+.secondp{
+    color: rgb(249, 244, 252);
+    font-size: 50px;
+}
+.formbtn{
+    background-color: orangered;
+    width: 120px;
+    height: 30px;
+    margin-top: 30px;
+    color: white;
+border: 1 solid red;
+border-radius: 10px;
+}
+.aboutgym{
+    background-color: white;
+    height: 800px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+
+}
+.aboutgym img{
+    width: 40%;
+    height: 600px;
+    border-top: 30px solid red;
+    border-left:30px solid red;
+    margin: 80px;
+    
+}
+.infoaboutgym{
+    /*background-color: blueviolet;*/
+    width: 60%;
+    height:600px;
+}
+.infoaboutgymspan{
+    border-bottom: 1px solid rgb(241, 61, 61);
+    font-size: 24px;
+    text-transform: uppercase;
+    color:rgb(241, 61, 61);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.infoaboutgymh1{
+    font-size: 44px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(63, 57, 57);
+    text-transform: uppercase;
+
+}
+.infoaboutgymp1{
+    font-size: 18px;
+font-weight: 500;
+color: rgb(49, 49, 49);
+}
+.readmore{
+    width: 220px;
+    height: 50px;
+    background-color: rgb(206, 1, 1);
+    color: white;
+}
+    .readmore:hover{
+
+        font-size: large;
+    }
+    .ourservice{
+        width: 100%;
+        height:1000px;
+        background-image: url(nextpic.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+       
+       
+       
+      
+    
+        
+    }
+    .ourserviceforyou{
+
+    width: 80%;
+    height: 400px;
+    /*background-color: blueviolet;*/
+    margin: 30px;
+    padding: 150px 0px 0px 50px;
+  
+    }
+    .ourserviceboxes{
+        width: 80%;
+        height: 300px;
+       /* background-color: coral;*/
+        margin: 90px;
+        display: flex;
+        justify-content: space-around;
+       
+        
+        
+    }
+    .boxes{
+        background-color:white;
+        width: 30%;
+        height: 350px;
+        text-align: center;
+        padding-top: 30px;
+        line-height: 30px;
+    }
+    .ourservicep1{
+       text-decoration: underline;
+        font-size: 24px;
+        color:red;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+    }
+    .ourservicep2{
+        font-size: 40px;
+font-weight: 600;
+color: white;
+    }
+    .moreservice{
+        width: 220px;
+    height: 50px;
+    background-color: rgb(206, 1, 1);
+    color: white;
+    margin-left: 700px;
+}
+   .boxesimg{
+    width: 70px;
+   } 
+   .boxesh2:hover{
+    color: red;
+   }
+.boxesimg:hover{
+   width: 80px;
+}
+.ourpartner1{
+    width: 100%;
+    height: 400px;
+    /*background-color: blueviolet;*/
+    margin: 30px;
+    padding: 80px 0px 0px 50px;
+}
+
+    
+
+.ourpartner2{
+    width: 100%;
+    height: 700px;
+    /*background-color: yellowgreen;*/
+    display: flex;
+    justify-content: space-around;
+}
+.partnerimg{
+    background-color: black;
+    width: 30%;
+    height: 600px;
+   
+
+}
+.partnerimgg{
+    width: 100%;
+    height: 490px;
+    
+}
+.partnername{
+color: white;
+padding-left: 30px;
+padding-top: 10px;
+
+
+}
+.ourpartnerh5{
+    color: rgba(159, 179, 196, 0.61);
+    text-decoration: underline;
+    padding: 25px 0px 0px 70px;
+    font-size: large;
+}
+.ourpartnerh5:hover, .partnername:hover{
+    color: red;
+    padding-left:  10%;
+}
+.ourpartner11{
+
+        text-decoration: underline;
+         font-size: 24px;
+         color:red;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         
+}
+.ourpartner12{
+
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.footer{
+background-image: url(nextpic.jpg);
+/*background-color: black;*/
+
+background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    height: 800px;
+    
+}
+.footerbox{
+
+    width: 100%;
+    height: 800px;
+/*background-color: violet;*/
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.footercontent{
+    width: 20%;
+    height: 400px;
+    /*background-color: black;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 8%;
+    
+   
+}
+.footercontent a{
+color: white;
+    text-decoration: none;
+    padding: 18px;
+}
+.COMPANY{
+    color: rgb(241, 241, 241);
+font-weight: bold;
+}
+.footercontent >a:hover{
+    color: yellowgreen;
+    padding-left: 10px;
+}
+.mygymh1,.mygymp{
+    color: white;
+    text-align: center;
+    
+}
+.mygymh1{
+    text-align: left;
+    padding-top: 70px;
+}
+.mygymp{
+    padding-top: 50px;
+    text-align: left;
+}
+
+
+.transblack{
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* section of registration form*/
+
+.registrationnav{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    
+
+}
+.registration1{
+
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(253, 253, 253);
+    margin-top: 120px;
+
+    
+}
+.regiimg{
+    width: 40%;
+height: 700px;
+
+}
+.registrationform{
+
+    width: 60%;
+    height: 700px;
+    /*background-color: black;*/
+    float:right;
+
+}
+.registrationh4{
+text-decoration: underline;
+font-size:24px;
+color: #f04e3c;
+font-weight: 300;
+margin: 50px 0px 30px 100px;
+
+}
+.registrationh1{
+ 
+        font-size: 50px;
+        color: #2c234d;
+        font-weight: 700;
+margin-left: 30px;
+}
+.navh1{
+    color: white;
+   line-height: 350px;
+   text-align: center;
+   font-size: 60px;
+}
+form{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 20px 30px 0px 30px;
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+input[type=text],[type=email],select{
+   padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 35%;
+}
+textarea{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+input[type=submit],[type=reset]{
+
+    width: 75%;
+    margin-left: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #4caf50;
+    cursor: pointer;
+    color: white;
+
+   }
+   
