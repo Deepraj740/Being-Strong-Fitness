@@ -11,7 +11,7 @@ body{
 
 
 .front{
-    background-image: url(body.jpg);
+    background-image: url(./items/body.jpg);
     width: 100%;
     height: 800px;
 background-attachment: fixed;
@@ -174,7 +174,7 @@ color: rgb(49, 49, 49);
     .ourservice{
         width: 100%;
         height:1000px;
-        background-image: url(nextpic.jpg);
+        background-image: url(./items/nextpic.jpg);
         background-size: cover;
         background-attachment: fixed;
        
@@ -301,7 +301,7 @@ padding-top: 10px;
     color: rgb(0, 0, 0);
 }
 .footer{
-background-image: url(nextpic.jpg);
+background-image: url(./items/nextpic.jpg);
 /*background-color: black;*/
 
 background-attachment: fixed;
